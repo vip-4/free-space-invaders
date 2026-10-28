@@ -1,0 +1,21 @@
+# Space Invaders Online — robots
+User-agent: *
+Allow: /
+
+# Generative engines explicitly welcome (GEO)
+User-agent: GPTBot
+Allow: /
+
+User-agent: OAI-SearchBot
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+Sitemap: https://vip-4.github.io/free-space-invaders/sitemap.xml

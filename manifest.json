@@ -1,0 +1,26 @@
+{
+  "name": "Space Invaders Online - Classic 1978 Arcade Game",
+  "short_name": "Space Invaders",
+  "description": "Play Space Invaders online for free! A faithful browser recreation of the 1978 Taito arcade classic.",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#050807",
+  "theme_color": "#050807",
+  "orientation": "portrait",
+  "categories": ["games", "entertainment"],
+  "icons": [
+    {
+      "src": "favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    },
+    {
+      "src": "favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "maskable"
+    }
+  ]
+}
