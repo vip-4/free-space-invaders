@@ -8,6 +8,8 @@
     <meta name="keywords" content="太空侵略者, Space Invaders, 太空侵略者在线, 太空侵略者免费, 街机游戏, 复古游戏, 经典街机, 1978街机, Taito, HTML5游戏, 网页游戏, 射击游戏, 免费在线游戏, 无需下载游戏">
     <meta name="author" content="Free Space Invaders Online">
     <meta name="robots" content="index, follow, max-image-preview:large">
+    <meta name="applicable-device" content="pc,mobile">
+    <meta name="format-detection" content="telephone=no">
     <meta name="theme-color" content="#050807">
     <meta name="color-scheme" content="dark">
     <meta name="mobile-web-app-capable" content="yes">
@@ -34,7 +36,7 @@
     <meta name="twitter:image" content="https://vip-4.github.io/free-space-invaders/assets/og-image.png">
     <meta name="twitter:image:alt" content="太空侵略者街机画面：外星人编队、掩体与玩家火炮">
     <link rel="icon" type="image/svg+xml" href="../favicon.svg">
-    <link rel="apple-touch-icon" href="../favicon.svg">
+    <link rel="apple-touch-icon" href="../assets/icon-180.png">
     <link rel="manifest" href="../manifest.json">
     <style>
 * {
@@ -156,7 +158,47 @@ footer.site a { margin: 0 6px; }
     [
       {
         "@context": "https://schema.org",
+        "@type": "WebSite",
+        "@id": "https://vip-4.github.io/free-space-invaders/#website",
+        "url": "https://vip-4.github.io/free-space-invaders/",
+        "name": "Free Space Invaders Online",
+        "inLanguage": ["zh-Hans", "en"],
+        "publisher": { "@id": "https://vip-4.github.io/free-space-invaders/#org" }
+      },
+      {
+        "@context": "https://schema.org",
+        "@type": "Organization",
+        "@id": "https://vip-4.github.io/free-space-invaders/#org",
+        "name": "Free Space Invaders Online",
+        "url": "https://vip-4.github.io/free-space-invaders/",
+        "logo": { "@type": "ImageObject", "url": "https://vip-4.github.io/free-space-invaders/favicon.svg" }
+      },
+      {
+        "@context": "https://schema.org",
+        "@type": "WebPage",
+        "@id": "https://vip-4.github.io/free-space-invaders/#webpage",
+        "url": "https://vip-4.github.io/free-space-invaders/zh/",
+        "name": "太空侵略者在线玩 – 经典1978街机游戏免费畅玩",
+        "description": "忠实还原1978年Taito街机经典：像素级外星人、可破坏掩体、神秘飞碟300分技巧。无需下载、无广告。",
+        "isPartOf": { "@id": "https://vip-4.github.io/free-space-invaders/#website" },
+        "inLanguage": "zh-Hans",
+        "about": { "@id": "https://vip-4.github.io/free-space-invaders/#game" },
+        "primaryImageOfPage": { "@id": "https://vip-4.github.io/free-space-invaders/#primaryimage" },
+        "significantLink": "https://vip-4.github.io/free-space-invaders/"
+      },
+      {
+        "@context": "https://schema.org",
+        "@type": "ImageObject",
+        "@id": "https://vip-4.github.io/free-space-invaders/#primaryimage",
+        "url": "https://vip-4.github.io/free-space-invaders/assets/og-image.png",
+        "width": 1200,
+        "height": 630,
+        "caption": "太空侵略者街机画面：底部绿色玩家火炮与掩体，上方成排像素外星人，顶部红色神秘飞碟区，黑色CRT背景"
+      },
+      {
+        "@context": "https://schema.org",
         "@type": "VideoGame",
+        "@id": "https://vip-4.github.io/free-space-invaders/#game",
         "name": "太空侵略者在线版",
         "alternateName": ["Space Invaders Online", "太空侵略者网页版", "免费太空侵略者"],
         "description": "免费浏览器版太空侵略者——忠实还原1978年Taito经典街机游戏。像素级精准外星人精灵、四座像素级侵蚀掩体、神秘飞碟计分系统、原版编队加速机制，以及街机厅彩罩配色风格。",
@@ -176,8 +218,10 @@ footer.site a { margin: 0 6px; }
           "priceCurrency": "USD",
           "availability": "https://schema.org/InStock"
         },
-        "image": "https://vip-4.github.io/free-space-invaders/assets/og-image.png",
+        "image": { "@id": "https://vip-4.github.io/free-space-invaders/#primaryimage" },
         "thumbnailUrl": "https://vip-4.github.io/free-space-invaders/favicon.svg",
+        "publisher": { "@id": "https://vip-4.github.io/free-space-invaders/#org" },
+        "mainEntityOfPage": { "@id": "https://vip-4.github.io/free-space-invaders/#webpage" },
         "controlMethod": ["Keyboard"],
         "controllerInput": ["ArrowLeft", "ArrowRight", "A", "D", "Space", "Enter"],
         "numberOfPlayers": 1,

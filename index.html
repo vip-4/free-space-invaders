@@ -8,6 +8,8 @@
     <meta name="keywords" content="space invaders, space invaders online, space invaders free, play space invaders, arcade game, retro game, classic arcade games, 1978 arcade, Taito, HTML5 game, browser game, shoot em up, alien shooter, free online game, no download games">
     <meta name="author" content="Free Space Invaders Online">
     <meta name="robots" content="index, follow, max-image-preview:large">
+    <meta name="applicable-device" content="pc,mobile">
+    <meta name="format-detection" content="telephone=no">
     <meta name="theme-color" content="#050807">
     <meta name="color-scheme" content="dark">
     <meta name="mobile-web-app-capable" content="yes">
@@ -34,7 +36,7 @@
     <meta name="twitter:image" content="https://vip-4.github.io/free-space-invaders/assets/og-image.png">
     <meta name="twitter:image:alt" content="Space Invaders arcade screen with alien formation, shields and player cannon">
     <link rel="icon" type="image/svg+xml" href="favicon.svg">
-    <link rel="apple-touch-icon" href="favicon.svg">
+    <link rel="apple-touch-icon" href="assets/icon-180.png">
     <link rel="manifest" href="manifest.json">
     <style>
 * {
@@ -156,7 +158,47 @@ footer.site a { margin: 0 6px; }
     [
       {
         "@context": "https://schema.org",
+        "@type": "WebSite",
+        "@id": "https://vip-4.github.io/free-space-invaders/#website",
+        "url": "https://vip-4.github.io/free-space-invaders/",
+        "name": "Free Space Invaders Online",
+        "inLanguage": ["en", "zh-Hans"],
+        "publisher": { "@id": "https://vip-4.github.io/free-space-invaders/#org" }
+      },
+      {
+        "@context": "https://schema.org",
+        "@type": "Organization",
+        "@id": "https://vip-4.github.io/free-space-invaders/#org",
+        "name": "Free Space Invaders Online",
+        "url": "https://vip-4.github.io/free-space-invaders/",
+        "logo": { "@type": "ImageObject", "url": "https://vip-4.github.io/free-space-invaders/favicon.svg" }
+      },
+      {
+        "@context": "https://schema.org",
+        "@type": "WebPage",
+        "@id": "https://vip-4.github.io/free-space-invaders/#webpage",
+        "url": "https://vip-4.github.io/free-space-invaders/",
+        "name": "Space Invaders Online – Play the Classic 1978 Arcade Game Free",
+        "description": "A faithful browser recreation of the 1978 Taito arcade classic: pixel-accurate aliens, destructible shields, the mystery ship 300-point trick. No download, no ads.",
+        "isPartOf": { "@id": "https://vip-4.github.io/free-space-invaders/#website" },
+        "inLanguage": "en",
+        "about": { "@id": "https://vip-4.github.io/free-space-invaders/#game" },
+        "primaryImageOfPage": { "@id": "https://vip-4.github.io/free-space-invaders/#primaryimage" },
+        "significantLink": "https://vip-4.github.io/free-space-invaders/zh/"
+      },
+      {
+        "@context": "https://schema.org",
+        "@type": "ImageObject",
+        "@id": "https://vip-4.github.io/free-space-invaders/#primaryimage",
+        "url": "https://vip-4.github.io/free-space-invaders/assets/og-image.png",
+        "width": 1200,
+        "height": 630,
+        "caption": "Space Invaders arcade screen: green player cannon and shields at the bottom, rows of pixel aliens above, red mystery ship zone at the top on a black CRT background"
+      },
+      {
+        "@context": "https://schema.org",
         "@type": "VideoGame",
+        "@id": "https://vip-4.github.io/free-space-invaders/#game",
         "name": "Space Invaders Online",
         "alternateName": ["Space Invaders Browser Game", "Free Space Invaders"],
         "description": "A free browser-based recreation of the classic 1978 Taito arcade game Space Invaders. Features pixel-accurate alien sprites, four destructible shields with pixel-level erosion, the mystery ship shot-count scoring system, authentic formation acceleration, and the original cabinet's colored cellophane overlay style.",
@@ -176,8 +218,10 @@ footer.site a { margin: 0 6px; }
           "priceCurrency": "USD",
           "availability": "https://schema.org/InStock"
         },
-        "image": "https://vip-4.github.io/free-space-invaders/assets/og-image.png",
+        "image": { "@id": "https://vip-4.github.io/free-space-invaders/#primaryimage" },
         "thumbnailUrl": "https://vip-4.github.io/free-space-invaders/favicon.svg",
+        "publisher": { "@id": "https://vip-4.github.io/free-space-invaders/#org" },
+        "mainEntityOfPage": { "@id": "https://vip-4.github.io/free-space-invaders/#webpage" },
         "controlMethod": ["Keyboard"],
         "controllerInput": ["ArrowLeft", "ArrowRight", "A", "D", "Space", "Enter"],
         "numberOfPlayers": 1,

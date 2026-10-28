@@ -18,4 +18,29 @@ Allow: /
 User-agent: ClaudeBot
 Allow: /
 
+User-agent: Amazonbot
+Allow: /
+
+User-agent: Applebot
+Allow: /
+
+User-agent: YouBot
+Allow: /
+
+# Chinese search engines (regional adaptation · 区域适配)
+User-agent: Baiduspider
+Allow: /
+
+User-agent: Sogou web spider
+Allow: /
+
+User-agent: 360Spider
+Allow: /
+
+User-agent: YisouSpider
+Allow: /
+
+User-agent: Bytespider
+Allow: /
+
 Sitemap: https://vip-4.github.io/free-space-invaders/sitemap.xml

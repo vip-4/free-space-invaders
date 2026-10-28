@@ -1,0 +1,26 @@
+# Space Invaders Online
+
+> A faithful browser recreation of the 1978 Taito arcade classic Space Invaders, in vanilla JavaScript and HTML5 Canvas. Pixel-accurate aliens and shields, authentic formation acceleration, the famous mystery-ship 300-point trick. Free, no download, no ads, bilingual English / 简体中文, pure static, zero dependencies.
+> 忠实还原1978年Taito经典街机《太空侵略者》的浏览器版：像素级外星人与掩体、原版编队加速、著名的神秘飞碟300分技巧。免费、无需下载、无广告，英文/简体中文双语，纯静态、零依赖。
+
+## Play 游戏
+
+- [Space Invaders Online (English)](https://vip-4.github.io/free-space-invaders/): 672×768 canvas arcade, Enter to start, Space to fire
+- [太空侵略者在线版（简体中文）](https://vip-4.github.io/free-space-invaders/zh/): 回车开始，空格射击
+
+## Game facts 游戏要点
+
+- Pixel-accurate squid / crab / octopus sprites with 2-frame animation, three authentic bomb types (rolling / plunger / squiggly)
+- 像素级乌贼/螃蟹/章鱼精灵与双帧动画，三种原版炸弹弹道（翻滚/柱塞/波浪）
+- Four destructible shields with pixel-level erosion; mystery ship scores by shot count — the famous 300-point trick
+- 四座掩体像素级侵蚀；神秘飞碟按射击次数计分——著名的300分技巧
+- Alien formation accelerates as it is destroyed (original hardware behavior); high score saved in the player's own browser via localStorage
+- 外星人编队随歼灭而加速（原版硬件特性）；最高分仅保存在玩家自己的浏览器（localStorage）
+- Independent fan recreation for entertainment and education; Space Invaders is a classic arcade game by Taito
+- 独立粉丝复刻，仅供娱乐与学习；太空侵略者是 Taito 的经典街机游戏
+
+## Mirrors 镜像仓库
+
+- [GitHub](https://github.com/vip-4/free-space-invaders): canonical source and live site host
+- [Gitee](https://gitee.com/vip882/free-space-invaders): mirror for mainland-China readers
+- [AtomGit](https://atomgit.com/zzw1208/free-space-invaders): mirror for mainland-China readers
